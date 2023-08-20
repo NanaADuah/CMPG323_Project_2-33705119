@@ -1,17 +1,18 @@
 # CMPG323 Project 2 - 33705119
-## CMPG323 Module - Project 2
+## CMPG323 Module - Project 2 | <img src="https://badgen.net/badge/ASP.NET/API/?icon=visualstudio"></img>
+
 
 # Table of Contents
 1. [Introduction](#introduction)
-2. [Authentication](#introduction)
-3. [Endpoints](#introduction)
-   1. [Customers](#customer)
-   2. [Orders](#orders)
-   3. [Order Details](#orderdetails)
-   4. [Products](#products)
-5. [HTTP Methods](#http-methods)
-6. [Error Handling](#error-handling)
-7. [Rate Limiting](#rate-limiting)
+2. [Authentication](#authentication)
+3. [HTTP Methods](#http-methods)
+4. [Endpoints](#endpoints)
+   - [Customer](#customer)
+   - [Orders](#orders)
+   - [Order Details](#orderdetails)
+   - [Products](#products)
+5. [Error Handling](#error-handling)
+6. [Rate Limiting](#rate-limiting)
 
 
 
@@ -20,7 +21,7 @@
 This API is designed to manage various aspects of the EcoPower Logistics company, including customers, products, orders, and order details. It follows a CRUD (Create, Read, Update, Delete) approach and is built using C# and Entity Framework. This project involves creating of a .NET Core Web API using Visual Studio which will be accompanied by Azure SQL Server and hosted on the cloud using Azure's API Management service.
 
 # Authentication
-Authentication is required to access the API endpoints. Each request must include an API key in the headers for validation. Contact the API administrator to obtain your API key.
+Authentication is required to access the API endpoints. Each request must include an API key in the headers for validation.
 
 ```
 AUTHENTICATION THINGS
@@ -29,13 +30,12 @@ AUTHENTICATION THINGS
 
 ## HTTP Methods 
 The API supports the following HTTP methods: </br>
-```GET: Retrieve data.``` </br>
-```POST: Create new records.``` </br>
-```PUT: Update existing records.``` </br>
-```DELETE: Delete records.``` </br>
+```GET     ›   Retrieve data``` </br>
+```POST    ›   Create new records``` </br>
+```PUT     ›   Update existing records``` </br>
+```DELETE  ›   Delete records``` </br>
 
 # Endpoints
-
 ## Customer
 
 Manage customer data, including creating, updating, retrieving, and deleting customer records.
@@ -87,6 +87,7 @@ Manage order details data, including creating, updating, retrieving, and deletin
 |```POST /api/orderdetails ```| Create a new order detail. Payload should contain order detail information.|
 |```PUT /api/orderdetails/{id} ```|  Update an existing order detail by ID. Payload should contain updated information.|
 |```DELETE /api/orderdetails/{id} ```|  Delete an order detail record by ID.|
+
 ## Error-Handling
 When errors occur, the API will return appropriate error responses with relevant status codes and error messages. Ensure to handle these errors on your end for a smooth user experience.
 
