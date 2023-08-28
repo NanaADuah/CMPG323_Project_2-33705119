@@ -21,7 +21,7 @@
 This API is designed to manage various aspects of the EcoPower Logistics company, including customers, products, orders, and order details. It follows a CRUD (Create, Read, Update, Delete) approach and is built using C# and Entity Framework. This project involves creating of a .NET Core Web API using Visual Studio which will be accompanied by Azure SQL Server and hosted on the cloud using Azure's API Management service.
 
 # Authentication
-Authentication is required to access the API endpoints. Each request must include an API key in the headers for validation.
+Authentication is required to access the API endpoints. I've integrated JWT (JSON Web Tokens) authentication to ensure secure access to my endpoints. 
 
 ```
 AUTHENTICATION THINGS
