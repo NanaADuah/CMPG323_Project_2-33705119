@@ -4,17 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:40009",
-      "sslPort": 44370
+      "applicationUrl": "http://localhost:20729",
+      "sslPort": 44398
     }
   },
   "profiles": {
-    "EcoPower_API": {
+    "EcoPowerLogistics": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7296;http://localhost:5187",
+      "applicationUrl": "https://localhost:7122;http://localhost:5138",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

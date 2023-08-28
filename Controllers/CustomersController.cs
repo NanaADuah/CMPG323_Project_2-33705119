@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using EcoPowerPlant.Models;
+using EcoPowerLogistics.Models;
 
-namespace EcoPowerPlant.Controllers
+namespace EcoPowerLogistics.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : ControllerBase
     {
-        private readonly EcoPowerContext _context;
+        private readonly EcoPowerSolutionsContext _context;
 
-        public CustomersController(EcoPowerContext context)
+        public CustomersController(EcoPowerSolutionsContext context)
         {
             _context = context;
         }
@@ -50,6 +50,7 @@ namespace EcoPowerPlant.Controllers
         }
 
         // PUT: api/Customers/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutCustomer(short id, Customer customer)
         {
@@ -80,12 +81,13 @@ namespace EcoPowerPlant.Controllers
         }
 
         // POST: api/Customers
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
         {
           if (_context.Customers == null)
           {
-              return Problem("Entity set 'EcoPowerContext.Customers'  is null.");
+              return Problem("Entity set 'EcoPowerSolutionsContext.Customers'  is null.");
           }
             _context.Customers.Add(customer);
             try
@@ -130,17 +132,6 @@ namespace EcoPowerPlant.Controllers
         private bool CustomerExists(short id)
         {
             return (_context.Customers?.Any(e => e.CustomerId == id)).GetValueOrDefault();
-        }
-
-        private bool CustomerHasOrder(short id)
-        {
-            if(_context.Customers == null)
-            {
-                return false;
-            }
-
-            //return (_context.Customers?.Any(e => e.))
-            return false;
         }
     }
 }

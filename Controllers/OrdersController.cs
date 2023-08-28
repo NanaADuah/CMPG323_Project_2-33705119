@@ -5,17 +5,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using EcoPowerPlant.Models;
+using EcoPowerLogistics.Models;
 
-namespace EcoPowerPlant.Controllers
+namespace EcoPowerLogistics.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        private readonly EcoPowerContext _context;
+        private readonly EcoPowerSolutionsContext _context;
 
-        public OrdersController(EcoPowerContext context)
+        public OrdersController(EcoPowerSolutionsContext context)
         {
             _context = context;
         }
@@ -50,6 +50,7 @@ namespace EcoPowerPlant.Controllers
         }
 
         // PUT: api/Orders/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutOrder(short id, Order order)
         {
@@ -80,12 +81,13 @@ namespace EcoPowerPlant.Controllers
         }
 
         // POST: api/Orders
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
           if (_context.Orders == null)
           {
-              return Problem("Entity set 'EcoPowerContext.Orders'  is null.");
+              return Problem("Entity set 'EcoPowerSolutionsContext.Orders'  is null.");
           }
             _context.Orders.Add(order);
             try
