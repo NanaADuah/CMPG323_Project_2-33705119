@@ -104,4 +104,8 @@ Available at: [link](https://learn.microsoft.com/en-us/azure/app-service/ ) - Sy
 * Publish an ASP.NET Core web API to Azure API Management with Visual Studio. [Microsoft](Microsoft.com) </br>
 Available at: [link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0) -  codemillmatt (2022) 
 
+* StackOverflow - More than one DbContext was found [StackOverflow](StackOverflow) </br>
+Available at: [link](https://stackoverflow.com/questions/52311053/more-than-one-dbcontext-was-found) (2018)
 
+* Tutorial: Use EF Migrations in an ASP.NET MVC app and deploy to Azure [Microsoft](Microsoft.com) </br>
+Available at: [link](https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application)
