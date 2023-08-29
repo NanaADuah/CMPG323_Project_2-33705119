@@ -6,9 +6,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EcoPowerLogistics.Models;
+using Microsoft.AspNetCore.Authorization;
+using JWTAuthentication.Authentication;
 
 namespace EcoPowerLogistics.Controllers
 {
+    [Authorize (Roles = UserRoles.Admin)]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : ControllerBase

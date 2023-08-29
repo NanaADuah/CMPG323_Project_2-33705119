@@ -25,7 +25,7 @@ namespace EcoPowerLogistics.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=EcoPowerSolutions");
+                optionsBuilder.UseSqlServer("name=ConnectionStrings:DefaultConnection");
             }
         }
 
