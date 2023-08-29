@@ -18,15 +18,17 @@
 
 # Introduction
 
-This API is designed to manage various aspects of the EcoPower Logistics company, including customers, products, orders, and order details. It follows a CRUD (Create, Read, Update, Delete) approach and is built using C# and Entity Framework. This project involves creating of a .NET Core Web API using Visual Studio which will be accompanied by Azure SQL Server and hosted on the cloud using Azure's API Management service.
+This API is designed to manage various aspects of the EcoPower Logistics company, including customers, products, orders, and order details. It follows a CRUD (Create, Read, Update, Delete) approach and is built using C# and Entity Framework. This project involves the creation of a .NET Core Web API using Visual Studio, which will be accompanied by Azure SQL Server and hosted on the cloud using Azure's API Management service.
 
 # Authentication
-Authentication is required to access the API endpoints. Each request must include an API key in the headers for validation.
-
+Authentication is required to access the API endpoints. I've integrated JWT (JSON Web Tokens) authentication to ensure secure access to my endpoints.
 ```
 AUTHENTICATION THINGS
 ```
 </br>
+
+<b>[Reiteration]</b> Gitignore file has been updated to ensure that files that contain sensitive data, such as appsettings.json, will not be uploaded to the repository when committing changes in Visual Studio
+
 
 ## HTTP Methods 
 The API supports the following HTTP methods: </br>
@@ -88,12 +90,13 @@ Manage order details data, including creating, updating, retrieving, and deletin
 |```PUT /api/orderdetails/{id} ```|  Update an existing order detail by ID. Payload should contain updated information.|
 |```DELETE /api/orderdetails/{id} ```|  Delete an order detail record by ID.|
 
+<!---
 ## Error-Handling
 When errors occur, the API will return appropriate error responses with relevant status codes and error messages. Ensure to handle these errors on your end for a smooth user experience.
 
 ## Rate Limiting
 To prevent abuse, the API has rate limiting in place. Each user has a limited number of requests they can make within a certain time period. If you exceed the limit, you'll receive a rate-limit exceeded response.
-
+-->
 ## References
 * CRUD ASP.NET Web API With Entity Framework In ASP.NET MVC. [C-sharpcorner.com](C-sharpcorner.com)<br>
 Available at: [link](https://www.c-sharpcorner.com/article/crud-Asp-Net-web-api-with-entity-framework-in-Asp-Net-mvc/) - Kumar, M. (2020).
@@ -104,4 +107,13 @@ Available at: [link](https://learn.microsoft.com/en-us/azure/app-service/ ) - Sy
 * Publish an ASP.NET Core web API to Azure API Management with Visual Studio. [Microsoft](Microsoft.com) </br>
 Available at: [link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0) -  codemillmatt (2022) 
 
+* Stack Overflow - More than one DbContext was found [Stack Overflow](StackOverflow) </br>
+Available at: [link](https://stackoverflow.com/questions/52311053/more-than-one-dbcontext-was-found) (2018)
 
+* Tutorial: Use EF Migrations in an ASP.NET MVC app and deploy to Azure [Microsoft](Microsoft.com) </br>
+Available at: [link](https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application)
+
+* There is already an object named in the database. [Stack Overflow](StackOverflow.com) </br>
+Available at: [link](https://stackoverflow.com/questions/26305273/there-is-already-an-object-named-in-the-database) [Accessed 29 Aug. 2023].
+
+‌
