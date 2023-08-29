@@ -18,15 +18,17 @@
 
 # Introduction
 
-This API is designed to manage various aspects of the EcoPower Logistics company, including customers, products, orders, and order details. It follows a CRUD (Create, Read, Update, Delete) approach and is built using C# and Entity Framework. This project involves creating of a .NET Core Web API using Visual Studio which will be accompanied by Azure SQL Server and hosted on the cloud using Azure's API Management service.
+This API is designed to manage various aspects of the EcoPower Logistics company, including customers, products, orders, and order details. It follows a CRUD (Create, Read, Update, Delete) approach and is built using C# and Entity Framework. This project involves the creation of a .NET Core Web API using Visual Studio, which will be accompanied by Azure SQL Server and hosted on the cloud using Azure's API Management service.
 
 # Authentication
-Authentication is required to access the API endpoints. I've integrated JWT (JSON Web Tokens) authentication to ensure secure access to my endpoints. 
-
+Authentication is required to access the API endpoints. I've integrated JWT (JSON Web Tokens) authentication to ensure secure access to my endpoints.
 ```
 AUTHENTICATION THINGS
 ```
 </br>
+
+<b>[Reiteration]</b> Gitignore file has been updated to ensure that files that contain sensitive data, such as appsettings.json, will not be uploaded to the repository when committing changes in Visual Studio
+
 
 ## HTTP Methods 
 The API supports the following HTTP methods: </br>
@@ -104,8 +106,13 @@ Available at: [link](https://learn.microsoft.com/en-us/azure/app-service/ ) - Sy
 * Publish an ASP.NET Core web API to Azure API Management with Visual Studio. [Microsoft](Microsoft.com) </br>
 Available at: [link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0) -  codemillmatt (2022) 
 
-* StackOverflow - More than one DbContext was found [StackOverflow](StackOverflow) </br>
+* Stack Overflow - More than one DbContext was found [Stack Overflow](StackOverflow) </br>
 Available at: [link](https://stackoverflow.com/questions/52311053/more-than-one-dbcontext-was-found) (2018)
 
 * Tutorial: Use EF Migrations in an ASP.NET MVC app and deploy to Azure [Microsoft](Microsoft.com) </br>
 Available at: [link](https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application)
+
+* There is already an object named in the database. [Stack Overflow](StackOverflow.com) </br>
+Available at: [link](https://stackoverflow.com/questions/26305273/there-is-already-an-object-named-in-the-database) [Accessed 29 Aug. 2023].
+
+‌
