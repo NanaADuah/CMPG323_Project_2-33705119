@@ -116,4 +116,5 @@ Available at: [link](https://learn.microsoft.com/en-us/aspnet/mvc/overview/getti
 * There is already an object named in the database. [Stack Overflow](StackOverflow.com) </br>
 Available at: [link](https://stackoverflow.com/questions/26305273/there-is-already-an-object-named-in-the-database) [Accessed 29 Aug. 2023].
 
-‌
+* https://stackoverflow.com/questions/62802173/consider-enabling-transient-error-resiliency-by-adding-enableretryonfailure
+*‌
