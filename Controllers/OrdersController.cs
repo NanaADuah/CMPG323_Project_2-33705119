@@ -52,7 +52,6 @@ namespace EcoPowerLogistics.Controllers
         }
 
         // PUT: api/Orders/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutOrder(short id, Order order)
         {
@@ -83,7 +82,6 @@ namespace EcoPowerLogistics.Controllers
         }
 
         // POST: api/Orders
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Order>> PostOrder(Order order)
         {
@@ -134,6 +132,24 @@ namespace EcoPowerLogistics.Controllers
         private bool OrderExists(short id)
         {
             return (_context.Orders?.Any(e => e.OrderId == id)).GetValueOrDefault();
+        }
+
+        // GET: api/Orders/Customer/{customerId}
+        [HttpGet("Customer/{customerId}")]
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrdersByCustomer(int customerId)
+        {
+            var customer = await _context.Customers
+                .Include(customer => customer.Orders)
+                .FirstOrDefaultAsync(customer => customer.CustomerId == customerId);
+
+            if (customer == null)
+            {
+                return NotFound();
+            }
+
+            var orders = customer.Orders;
+
+            return Ok(orders);
         }
     }
 }
