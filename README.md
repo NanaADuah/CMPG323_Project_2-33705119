@@ -90,12 +90,13 @@ Manage order details data, including creating, updating, retrieving, and deletin
 |```PUT /api/orderdetails/{id} ```|  Update an existing order detail by ID. Payload should contain updated information.|
 |```DELETE /api/orderdetails/{id} ```|  Delete an order detail record by ID.|
 
+<!---
 ## Error-Handling
 When errors occur, the API will return appropriate error responses with relevant status codes and error messages. Ensure to handle these errors on your end for a smooth user experience.
 
 ## Rate Limiting
 To prevent abuse, the API has rate limiting in place. Each user has a limited number of requests they can make within a certain time period. If you exceed the limit, you'll receive a rate-limit exceeded response.
-
+-->
 ## References
 * CRUD ASP.NET Web API With Entity Framework In ASP.NET MVC. [C-sharpcorner.com](C-sharpcorner.com)<br>
 Available at: [link](https://www.c-sharpcorner.com/article/crud-Asp-Net-web-api-with-entity-framework-in-Asp-Net-mvc/) - Kumar, M. (2020).
