@@ -112,7 +112,7 @@ Once you have the token, you must include it in the header of your HTTP requests
 With the token in place, you can start making requests to the various such as the GET, PUT, DELETE, etc.. requests for the various Customer, Product, Order, and OrderDetails endpoints.
 
 ### Token Expiry and Refresh:
-The token expired after 3 hours to enhance security. After the token expires, you will need to re-authenticate to obtain a new token.
+The token expires after 3 hours to enhance security. After the token expires, you will need to re-authenticate to obtain a new token.
 
 ### Logging Out:
 You have the ability to log out after authorization. After logging out, your provided token is no longer valid for authentication.
