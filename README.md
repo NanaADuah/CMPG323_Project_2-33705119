@@ -121,6 +121,9 @@ You have the ability to log out after authorization. After logging out, your pro
 It contains authentication information and should not be shared or exposed publicly.
 
 ## References
+<details>
+   <summary>All the references used for the Project 2</summary>
+   
 * CRUD ASP.NET Web API With Entity Framework In ASP.NET MVC. [C-sharpcorner.com](C-sharpcorner.com)<br>
 Available at: [link](https://www.c-sharpcorner.com/article/crud-Asp-Net-web-api-with-entity-framework-in-Asp-Net-mvc/) - Kumar, M. (2020).
 
@@ -142,5 +145,14 @@ Available at: [link](https://stackoverflow.com/questions/26305273/there-is-alrea
 * Consider Enabling Transient Error Resiliency By Adding EnableRetryOnFailure. [Stack Overflow](StackOverflow.com) </br>
 Available at [link](https://stackoverflow.com/questions/62802173/consider-enabling-transient-error-resiliency-by-adding-enableretryonfailure) - Sheldon Cohen (2022)
 
-‌* ASP.Net Core API Error (Unable to resolve service for type ... ). [Microsoft](Microsoft.com) </br>
-Available at: [link]('https://learn.microsoft.com/en-us/answers/questions/788223/asp-net-core-api-error-(unable-to-resolve-service)') 
+* ASP.Net Core API Error. [Microsoft](Microsoft.com) </br> Available at: [link](https://learn.microsoft.com/en-us/answers/questions/788223/asp-net-core-api-error-(unable-to-resolve-service)) 
+
+* Some Services Are Not Able To Be Constructed. [Stack Overflow](Stackoverflow.com) </br>
+Available at: [link](https://stackoverflow.com/questions/69198882/some-services-are-not-able-to-be-constructed-error-while-validating-the-service)
+
+* Dependecy Injection Error. [Stack Overflow](Stackoverflow.com) </br>
+Available at: [link](https://stackoverflow.com/questions/40900414/dependency-injection-error-unable-to-resolve-service-for-type-while-attempting)
+
+* What is the Azure SQL Database service? - Azure SQL Database. [Microsoft.com](Microsoft.com) </br>
+Available at: [link](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql) - WilliamDAssafMSFT (2023)
+</details>
