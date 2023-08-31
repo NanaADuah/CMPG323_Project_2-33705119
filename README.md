@@ -1,6 +1,6 @@
+# [PRODUCTION BRANCH]
 # CMPG323 Project 2 - 33705119
 ## CMPG323 Module - Project 2 | <img src="https://badgen.net/badge/ASP.NET/API/?icon=visualstudio"></img>
-
 
 # Table of Contents
 1. [Introduction](#introduction)
@@ -18,7 +18,11 @@
 
 # Introduction
 
+```https://ecopowerlogi.azurewebsites.net```
+
 This API is designed to manage various aspects of the EcoPower Logistics company, including customers, products, orders, and order details. It follows a CRUD (Create, Read, Update, Delete) approach and is built using C# and Entity Framework. This project involves creating of a .NET Core Web API using Visual Studio which will be accompanied by Azure SQL Server and hosted on the cloud using Azure's API Management service.
+
+I have done all the commits for the API on the development branch to ensure that everything works, and did a final commit to this main branch to finalize production. 
 
 # Authentication
 Authentication is required to access the API endpoints. Each request must include an API key in the headers for validation.
