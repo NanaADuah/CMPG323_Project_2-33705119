@@ -124,35 +124,85 @@ It contains authentication information and should not be shared or exposed publi
 <details>
    <summary>All the references used for the Project 2</summary>
    
-* CRUD ASP.NET Web API With Entity Framework In ASP.NET MVC. [C-sharpcorner.com](C-sharpcorner.com)<br>
-Available at: [link](https://www.c-sharpcorner.com/article/crud-Asp-Net-web-api-with-entity-framework-in-Asp-Net-mvc/) - Kumar, M. (2020).
+   * Revo (2018). C# local database not updating when using |DataDirectory|. [online] Stack Overflow. </br>
+   Available at: [link](https://stackoverflow.com/questions/53643610/c-sharp-local-database-not-updating-when-using-datadirectory) [Accessed 18 Aug. 2023].
 
-* Azure App Service documentation - Azure App Service. [Microsoft](Microsoft.com)</br>
-Available at: [link](https://learn.microsoft.com/en-us/azure/app-service/ ) - SyntaxC4 (2023)
+* andersjanmyr (2008). How can I rename a project folder from within Visual Studio? [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/211241/how-can-i-rename-a-project-folder-from-within-visual-studio) [Accessed 18 Aug. 2023].
 
-* Publish an ASP.NET Core web API to Azure API Management with Visual Studio. [Microsoft](Microsoft.com) </br>
-Available at: [link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0) -  codemillmatt (2022) 
+* Kumar, M. (2020). CRUD ASP.NET Web API With Entity Framework In ASP.NET MVC. [online] C-sharpcorner.com <br>
+Available at: [link](https://www.c-sharpcorner.com/article/crud-Asp-Net-web-api-with-entity-framework-in-Asp-Net-mvc/) [Accessed 19 Aug. 2023].
 
-* Stack Overflow - More than one DbContext was found. [Stack Overflow](StackOverflow) </br>
-Available at: [link](https://stackoverflow.com/questions/52311053/more-than-one-dbcontext-was-found) (2018)
+* S, P.K. (2019). Creating A Web API Project In Visual Studio 2019. [online] C-sharpcorner.com. </br>
+Available at: [link](https://www.c-sharpcorner.com/article/creating-a-web-api-project-in-visual-studio-2019/) [Accessed 20 Aug. 2023].
 
-* Tutorial: Use EF Migrations in an ASP.NET MVC app and deploy to Azure. [Microsoft](Microsoft.com) </br>
-Available at: [link](https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application)
+* Mori, A. (2020). What Is Startup Class And Program.cs In ASP.NET Core. [online] C-sharpcorner.com. </br>
+Available at: [link](https://www.c-sharpcorner.com/article/what-is-startup-class-and-program-cs-in-asp-net-core/) [Accessed 20 Aug. 2023].
 
-* There is already an object named in the database. [Stack Overflow](StackOverflow.com) </br>
-Available at: [link](https://stackoverflow.com/questions/26305273/there-is-already-an-object-named-in-the-database) - x19 (2014).
+* Redhat.com. (2022). What is an API? [online] </br>
+Available at: [link](https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces) [Accessed 20 Aug. 2023].
 
-* Consider Enabling Transient Error Resiliency By Adding EnableRetryOnFailure. [Stack Overflow](StackOverflow.com) </br>
-Available at [link](https://stackoverflow.com/questions/62802173/consider-enabling-transient-error-resiliency-by-adding-enableretryonfailure) - Sheldon Cohen (2022)
+* hrvn10 (2018). Azure SQL database not found or inaccessible problem. [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/52828391/azure-sql-database-not-found-or-inaccessible-problem) [Accessed 21 Aug. 2023].
 
-* ASP.Net Core API Error. [Microsoft](Microsoft.com) </br> Available at: [link](https://learn.microsoft.com/en-us/answers/questions/788223/asp-net-core-api-error-(unable-to-resolve-service)) 
+* Rick-Anderson (2022). Build RESTful APIs with ASP.NET Web API - ASP.NET 4.x. [online] Microsoft.com. </br>
+Available at: [link](https://learn.microsoft.com/en-us/aspnet/web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api) [Accessed 21 Aug. 2023].
 
-* Some Services Are Not Able To Be Constructed. [Stack Overflow](Stackoverflow.com) </br>
-Available at: [link](https://stackoverflow.com/questions/69198882/some-services-are-not-able-to-be-constructed-error-while-validating-the-service)
+* dotnet (2021). Creating a Web API project [3 of 18] | Web APIs for Beginners. YouTube. </br>
+Available at: [link](https://www.youtube.com/watch?v=AA5Fyt8sM7Y) [Accessed 31 Aug. 2023].
 
-* Dependecy Injection Error. [Stack Overflow](Stackoverflow.com) </br>
-Available at: [link](https://stackoverflow.com/questions/40900414/dependency-injection-error-unable-to-resolve-service-for-type-while-attempting)
+* SyntaxC4 (2023). Azure App Service documentation - Azure App Service. [online] Microsoft.com. </br>
+Available at: [link](https://learn.microsoft.com/en-us/azure/app-service/ ) [Accessed 20 Aug. 2023].
 
-* What is the Azure SQL Database service? - Azure SQL Database. [Microsoft.com](Microsoft.com) </br>
-Available at: [link](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql) - WilliamDAssafMSFT (2023)
+* codemillmatt (2022). Publish an ASP.NET Core web API to Azure API Management with Visual Studio. [online] Microsoft.com </br>
+Available at: [link](https://learn.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-api-management-using-vs?view=aspnetcore-6.0)  [Accessed 20 Aug. 2023]‌
+
+* Sivakumar (2021). Azure CLI 2.x is not installed on this machine. [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/70461134/azure-cli-2-x-is-not-installed-on-this-machine) [Accessed 24 Aug. 2023].
+
+* tdykstra (2022). Tutorial: Use EF Migrations in an ASP.NET MVC app and deploy to Azure. [online] Microsoft.com. </br>
+Available at: [link](https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application) [Accessed 28 Aug. 2023].
+
+*  x19 (2014). There is already an object named in the database. [Stack Overflow](StackOverflow.com) </br>
+Available at: [link](https://stackoverflow.com/questions/26305273/there-is-already-an-object-named-in-the-database) [Accessed 28 Aug. 2023]. 
+
+* Sheldon Cohen (2022). Consider Enabling Transient Error Resiliency By Adding EnableRetryOnFailure. [online] StackOverflow.com </br>
+Available at [link](https://stackoverflow.com/questions/62802173/consider-enabling-transient-error-resiliency-by-adding-enableretryonfailure) [Accessed 28 Aug. 2023].
+
+* resting (2012). Markdown to create pages and table of contents? [online] Stack Overflow.</br>
+Available at: [link](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents) [Accessed 23 Aug. 2023].
+
+* Yaourt (2021). Some services are not able to be constructed. Error while validating the service descriptor. [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/69198882/some-services-are-not-able-to-be-constructed-error-while-validating-the-service) [Accessed 25 Aug. 2023].
+‌
+* kimbaudi (2016). Dependency Injection error: Unable to resolve service for type while attempting to activate, while class is registered. [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/40900414/dependency-injection-error-unable-to-resolve-service-for-type-while-attempting) [Accessed 25 Aug. 2023].
+
+* WilliamDAssafMSFT (2023). What is the Azure SQL Database service? - Azure SQL Database. [online] Microsoft.com </br>
+Available at: [link](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql) [Accessed 28 Aug. 2023].
+
+* KJBTech (2016). System.InvalidOperationException: Unable to resolve service for type. [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/40265541/system-invalidoperationexception-unable-to-resolve-service-for-type?noredirect=1&lq=1) [Accessed 26 Aug. 2023].
+
+* Rehman, F. (2020). Invalid value for key ‘authentication’. [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/59654712/invalid-value-for-key-authentication) [Accessed 28 Aug. 2023].
+
+* Ibanez1408 (2018). More than one DbContext was found. [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/52311053/more-than-one-dbcontext-was-found) [Accessed 28 Aug. 2023].
+
+* flashsplat (2022). How do I get the DBContext in a class? [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/73781004/how-do-i-get-the-dbcontext-in-a-class?noredirect=1&lq=1) [Accessed 26 Aug. 2023].
+
+* Kovacevic, V. (2017). Unable to resolve service for type while attempting to activate. [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/46930090/unable-to-resolve-service-for-type-while-attempting-to-activate?rq=3) [Accessed 29 Aug. 2023].
+
+* markdefalco (2021). Creating a Web API project [3 of 18]. [online] Microsoft.com. </br>
+Available at: [link](https://learn.microsoft.com/en-us/shows/beginners-series-to-web-apis/creating-a-web-api-project-3-of-18--beginners-series-to-web-apis) [Accessed 29 Aug. 2023].
+
+* Nazar Pylyp (2019). .NET Core 3.0 possible object cycle was detected which is not supported. [Stack Overflow](StackOverflow.com) </br>
+Available at: [link](https://stackoverflow.com/questions/59199593/net-core-3-0-possible-object-cycle-was-detected-which-is-not-supported)  [Accessed 31 Aug. 2023]
+
+* Microsoft.com. (2022). ASP.net Core API Error (Unable to resolve service for type ‘TapAPI.Models.TodoContext’ while attempting to activate ‘TapAPI.Controllers.TapController’) - Microsoft Q&A. [online] </br>
+Available at: [link](https://learn.microsoft.com/en-us/answers/questions/788223/asp-net-core-api-error-(unable-to-resolve-service)) [Accessed 30 Aug. 2023].
+
 </details>
