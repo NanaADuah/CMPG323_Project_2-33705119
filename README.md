@@ -13,9 +13,7 @@
    - [Order Details](#orderdetails)
    - [Products](#products)
 5. [Using the API](#api-use)
-6. [Rate Limiting](#rate-limiting)
-
-
+6. [Additional Functionalities](#additional-functionalities)
 
 # Introduction
 
@@ -119,6 +117,9 @@ You have the ability to log out after authorization. After logging out, your pro
 
 ### Protecting Your Token: 
 It contains authentication information and should not be shared or exposed publicly.
+
+#Additional-Functionalities
+
 
 ## References
 <details>
