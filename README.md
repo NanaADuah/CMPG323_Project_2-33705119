@@ -119,14 +119,14 @@ You have the ability to log out after authorization. After logging out, your pro
 It contains authentication information and should not be shared or exposed publicly.
 
 #Additional-Functionalities
-
+Implementation of Azure Key Vault
 
 ## References
 <details>
    <summary>All the references used for the Project 2</summary>
    
-   * Revo (2018). C# local database not updating when using |DataDirectory|. [online] Stack Overflow. </br>
-   Available at: [link](https://stackoverflow.com/questions/53643610/c-sharp-local-database-not-updating-when-using-datadirectory) [Accessed 18 Aug. 2023].
+* Brabec, M. (2014). Entity Framework rollback and remove bad migration. [online] Stack Overflow. </br>
+Available at: [link](https://stackoverflow.com/questions/22680446/entity-framework-rollback-and-remove-bad-migration) ‌[Accessed 18 Aug. 2023].
 
 * andersjanmyr (2008). How can I rename a project folder from within Visual Studio? [online] Stack Overflow. </br>
 Available at: [link](https://stackoverflow.com/questions/211241/how-can-i-rename-a-project-folder-from-within-visual-studio) [Accessed 18 Aug. 2023].
