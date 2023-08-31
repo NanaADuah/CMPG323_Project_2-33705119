@@ -14,6 +14,7 @@
 5. [Using the API](#api-use)
 6. [Additional Functionalities](#additional-functionalities)
 
+![image](https://github.com/NanaADuah/CMPG323_Project_2-33705119/assets/48721153/3b6b6e3f-543a-4c8f-b02e-969b8056aed3)
 
 
 # Introduction
