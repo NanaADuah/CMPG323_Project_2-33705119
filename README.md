@@ -95,7 +95,7 @@ When errors occur, the API will return appropriate error responses with relevant
 To prevent abuse, the API has rate limiting in place. Each user has a limited number of requests they can make within a certain time period. If you exceed the limit, you'll receive a rate-limit exceeded response.
 -->
 
-# Using The API
+# API-Use
 Authentication Request & Obtaining API Access:
 Before making use of the EcoPowerLogistics API, you need to authenticate yourself by first registering an account on the platform. You must then log in with your registered credentials (username and password) to the login endpoint on the server. Upon successful authentication, you will receive a token in the response.
 
@@ -118,8 +118,8 @@ You have the ability to log out after authorization. After logging out, your pro
 ### Protecting Your Token: 
 It contains authentication information and should not be shared or exposed publicly.
 
-#Additional-Functionalities
-Implementation of Azure Key Vault
+# Additional-Functionalities
+Microsoft Azure that helps you safeguard cryptographic keys, secrets, and other sensitive information. Implementation of Azure Key Vault for a connection string to the database provides a secure way to store and manage my connection strings, API keys, and passwords.
 
 ## References
 <details>
