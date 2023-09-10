@@ -3,19 +3,22 @@
 ## CMPG323 Module - Project 2 | <img src="https://badgen.net/badge/ASP.NET/API/?icon=visualstudio"></img>
 
 # Table of Contents
-1. [Introduction](#introduction)
-2. [Authentication](#authentication)
-3. [HTTP Methods](#http-methods)
-4. [Endpoints](#endpoints)
+1. [Link to project](#link)
+2. [Introduction](#introduction)
+3. [Authentication](#authentication)
+4. [HTTP Methods](#http-methods)
+5. [Endpoints](#endpoints)
    - [Customer](#customer)
    - [Orders](#orders)
    - [Order Details](#orderdetails)
    - [Products](#products)
-5. [Using the API](#api-use)
-6. [Additional Functionalities](#additional-functionalities)
+6. [Using the API](#api-use)
+7. [Additional Functionalities](#additional-functionalities)
 
 ![image](https://github.com/NanaADuah/CMPG323_Project_2-33705119/assets/48721153/3b6b6e3f-543a-4c8f-b02e-969b8056aed3)
 
+# Link
+Link to the hosted API - available [here](https://ecopowerlogi.azurewebsites.net/)
 
 # Introduction
 
